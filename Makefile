@@ -40,7 +40,7 @@ else ifneq ($(findstring MINGW,$(shell uname -a)),)
 endif
 
 CORE_DIR    += .
-TARGET_NAME := retro8
+TARGET_NAME := retro8-rf
 LIBM		    = -lm
 
 ifeq ($(ARCHFLAGS),)
